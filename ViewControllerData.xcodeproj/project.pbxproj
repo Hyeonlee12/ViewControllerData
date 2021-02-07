@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40AFD3725CBEADD003CC0BA /* DelegateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AFD3625CBEADD003CC0BA /* DelegateVC.swift */; };
 		F47F19DC256E5C9700644737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F19DB256E5C9700644737 /* AppDelegate.swift */; };
 		F47F19DE256E5C9700644737 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F19DD256E5C9700644737 /* SceneDelegate.swift */; };
 		F47F19E0256E5C9700644737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F19DF256E5C9700644737 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F40AFD3625CBEADD003CC0BA /* DelegateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateVC.swift; sourceTree = "<group>"; };
 		F47F19D8256E5C9700644737 /* ViewControllerData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47F19DB256E5C9700644737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F47F19DD256E5C9700644737 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				F47F19E9256E5C9800644737 /* Info.plist */,
 				F47F19F0256E5DA700644737 /* InstancePropertyVC.swift */,
 				F47F19F3256E5DB800644737 /* InitializePropertyVC.swift */,
+				F40AFD3625CBEADD003CC0BA /* DelegateVC.swift */,
 			);
 			path = ViewControllerData;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F47F19F1256E5DA700644737 /* InstancePropertyVC.swift in Sources */,
+				F40AFD3725CBEADD003CC0BA /* DelegateVC.swift in Sources */,
 				F47F19F4256E5DB800644737 /* InitializePropertyVC.swift in Sources */,
 				F47F19E0256E5C9700644737 /* ViewController.swift in Sources */,
 				F47F19DC256E5C9700644737 /* AppDelegate.swift in Sources */,

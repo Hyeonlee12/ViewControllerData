@@ -7,10 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, TestDelegate {
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
 	}
 	
 	@IBAction func firstButtonTapped(_ sender: Any) {
@@ -24,5 +25,15 @@ class ViewController: UIViewController {
 		self.present(nextVC, animated: false, completion: nil)
 	}
 	
+	@IBAction func thirdButtonTapped(_ sender: Any) {
+		let nextVC = DelegateVC()
+		nextVC.delegate = self
+		self.present(nextVC, animated: false, completion: nil)
+	}
+	
+	func delegateFunction(data: String) -> String{
+		print("ViewController DelegateFunction")
+		return data
+	}
 }
 
